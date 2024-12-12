@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: web-server-breif7
+    container_name: web-server-brief7
     ports:
       - "8080:80" 
     volumes:
@@ -18,7 +18,7 @@ services:
     container_name: mysql-db-brief7
     environment:
       MYSQL_ROOT_PASSWORD: rootpassword
-      MYSQL_DATABASE: breif7_database
+      MYSQL_DATABASE: brief7_database
       MYSQL_USER: my_user
       MYSQL_PASSWORD: my_password
     ports:

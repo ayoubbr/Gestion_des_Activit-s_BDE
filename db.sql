@@ -29,7 +29,7 @@ CREATE TABLE Sponsors (
 
 CREATE TABLE Roles_BDE (
    Id_Role_BDE INT AUTO_INCREMENT,
-   title VARCHAR(50) NOT NULL,
+   role VARCHAR(50) NOT NULL,
    PRIMARY KEY (Id_Role_BDE)
 );
 
@@ -198,7 +198,7 @@ VALUES
    );
 
 INSERT INTO
-   Roles_BDE (title)
+   Roles_BDE (role)
 VALUES
    ('Président'),
    ('Vice-président'),
